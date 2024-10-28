@@ -1,0 +1,164 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.accu-panel-heading{
+	padding: 10px 5px;
+	border-bottom: 1px solid transparent;
+	border-bottom-color: transparent;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+
+	color: #31708f;
+	background-color: #add8e6;
+	border-color: #bce8f1;
+
+	width: 100%;
+	float: left;
+	margin: 10px auto;
+}
+
+.accu-panel-heading img{
+	float: left;
+}
+
+.accu-panel-heading h3{
+	float: left;
+	margin: 2.5% 1%;
+	font-size: 2.5em;
+}
+
+.accu-btn {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	height: 36px;
+	line-height: 35px;
+	padding: 0 20px;
+	font-size: 13px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 -1px rgba(0, 0, 0, 0.4);
+	background-clip: padding-box;
+	border: 1px solid;
+	border-top-color: currentcolor;
+	border-right-color: currentcolor;
+	border-bottom-color: currentcolor;
+	border-left-color: currentcolor;
+	border-radius: 2px;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+
+.accu-screen-reader-text {
+	text-align: left;
+	font-size: 1.7em;
+	padding: 6px 0px;
+}
+
+
+.accu-content no-backup.p {
+	text-align: center;
+	border: 1px solid black;
+	padding: 10px;
+	font-size: 1.4em;
+	border-radius: 5px;
+}
+
+.rm_wrng {
+	font-style: oblique;
+	font-size: 0.96em;
+}
+
+
+.accu-btn-dwnld{
+	background: #1097e6;
+	background-image: none;
+	border-color: #0d78b6 #0d78b6 #0b689e;
+	background-image: -webkit-linear-gradient(top, #25a5f0, #1097e6 66%, #0f8ad3);
+	background-image: -moz-linear-gradient(top, #25a5f0, #1097e6 66%, #0f8ad3);
+	background-image: -o-linear-gradient(top, #25a5f0, #1097e6 66%, #0f8ad3);
+	background-image: linear-gradient(to bottom, #25a5f0, #1097e6 66%, #0f8ad3);
+}
+
+.accu-btn-remove{
+	background: #d5452f;
+	background-image: none;
+	border-color: #ae3623 #ae3623 #992f1f;
+	background-image: -webkit-linear-gradient(top, #da5c48, #d5452f 66%, #c73d28);
+	background-image: -moz-linear-gradient(top, #da5c48, #d5452f 66%, #c73d28);
+	background-image: -o-linear-gradient(top, #da5c48, #d5452f 66%, #c73d28);
+	background-image: linear-gradient(to bottom, #da5c48, #d5452f 66%, #c73d28);
+}
+
+a.accu-btn:hover{
+	text-decoration: none;
+	color:white;
+}
+
+.bkp_chkbx {
+	text-align: center;
+	position: absolute;
+	margin: 0px auto;
+}
+
+.widefat th input{
+	margin: 0 0 0 7px;
+}
+
+.bult_action_div {
+	position: absolute;
+	left: 150px;
+	z-index: 9999;
+}
+
+.bult_action_div select{
+	width: auto;
+}
+
+
+input.bkp_chkbx {
+	text-align: center;
+	margin: 11px 16px !important;
+}
+
+
+
+p.no-backup {
+	text-align: center;
+	font-size: 1.2em;
+	border: 1px solid gray;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+.accu_notice{
+	display:none;
+}
+
+
+ul.accu_ul{
+	list-style:square;
+	margin: 12px 1% auto 1.5%;
+}
+
+.accu-next-backup{
+	color:green;
+	font-weight: 400;
+}
+
+
+.winos {
+	float: left;
+	width: 100%;
+	margin: 1% auto;
+	background: #ca4a1f;
+	color: #fff;
+	padding: 10px;
+	font-weight: 500;
+	font-size: 1.0em;
+}
